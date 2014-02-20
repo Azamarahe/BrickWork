@@ -1,0 +1,16 @@
+Program should (flow):
+	Start up
+	/Display splash
+	\Display window
+	/Check for task dir, open if found/create if not, enumerate task files, load task objects
+	\Generate priorities, sort by priority
+	Display old tasks
+	:Add to Plate moves task to Plate
+	:Add New Task creates new task on Menu
+	:Clicking and dragging tasks on Plate or Menu reorders them
+	:Detail button expands task to full detail* window (include "Check off" button here, to encourage note-taking)
+		Save updates task file
+	:Clicking a task on Plate or Menu and using the up, down, first, or last button reorders tasks.
+	:Closing the application saves a log of today's task list 
+	:Note button opens note program (like TimeKeeper)
+	:Config button
